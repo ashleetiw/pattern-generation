@@ -21,7 +21,7 @@ In order to be a valid kernel function the resulting kernel matrix should be pos
 ![eq3](https://github.com/ashleetiw/pattern-generation/blob/master/f3.png)
 
 
-## Heat Map and activation Mp for analysis 
+## Heat Map and activation Map for analysis 
 # input image 
 ![a1](https://github.com/ashleetiw/pattern-generation/blob/master/activ1.png)
 # activation map
