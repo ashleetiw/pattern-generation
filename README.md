@@ -21,10 +21,13 @@ In order to be a valid kernel function the resulting kernel matrix should be pos
 ![eq3](https://github.com/ashleetiw/pattern-generation/blob/master/f3.png)
 
 
-<!-- ## Heat Map and activation Map for analysis 
-![a1](../assets/img/activ1.png){: width="200" }
-![a2](../assets/img/act3.png){: width="300" }
-![a3](../assets/img/act2.png){: width="350" } -->
+## Heat Map and activation Mp for analysis 
+# input image 
+![a1](https://github.com/ashleetiw/pattern-generation/blob/master/f3.png)
+# activation map
+![a2](https://github.com/ashleetiw/pattern-generation/blob/master/act3.png)
+# heat map
+![a3](https://github.com/ashleetiw/pattern-generation/blob/master/act2.png)
 
 ## References
 1:[https://www.cs.toronto.edu/~duvenaud/cookbook/](https://www.cs.toronto.edu/~duvenaud/cookbook/)
