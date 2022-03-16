@@ -23,7 +23,7 @@ In order to be a valid kernel function the resulting kernel matrix should be pos
 
 ## Heat Map and activation Mp for analysis 
 # input image 
-![a1](https://github.com/ashleetiw/pattern-generation/blob/master/f3.png)
+![a1](https://github.com/ashleetiw/pattern-generation/blob/master/activ1.png)
 # activation map
 ![a2](https://github.com/ashleetiw/pattern-generation/blob/master/act3.png)
 # heat map
