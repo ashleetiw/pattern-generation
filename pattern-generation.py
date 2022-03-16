@@ -39,6 +39,7 @@ class kernel:
                 l.set_rotation(30)
         ax1.set_title(f'Samples from {description}')
         # Plot covariance matrix
+
         im = ax2.imshow(cov, cmap=cm.YlOrRd)
         divider = make_axes_locatable(ax2)
         cax = divider.append_axes('right', size='5%', pad=0.02)
@@ -72,11 +73,13 @@ class kernel:
 
         # Plot first
         cov = tfk.ExponentiatedQuadratic(amplitude=1., length_scale=1.).matrix(X, X).numpy()
+        
         y = np.random.multivariate_normal(
             mean=np.zeros(nb_of_samples), cov=cov, 
             size=nb_of_realizations).T
+
         self.plot_kernel(
-            X, y, cov, '$\\ell = 1$, $\\sigma = 1$', 
+            X, y,cov, '$\\ell = 1$, $\\sigma = 1$', 
             fig, gs[0], xlim)
 
         # Plot second
@@ -295,7 +298,7 @@ class kernel:
         
 k=kernel()
 k.ExponentiatedQuadratic(150,3)
-k.RationalQuadratic(150,3)
-k.ExpSinSquared(150,3)
-k.local_periodic_kernel(150,3)
+# k.RationalQuadratic(150,3)
+# k.ExpSinSquared(150,3)
+# k.local_periodic_kernel(150,3)
 plt.show()
